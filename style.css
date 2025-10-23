@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+body{
+    background-color:rgb(201, 199, 199);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:'Ubantu' sans-serif;
+    border: #fcf5f7 2px solid;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    background-color: #0f0e0e;
+}
+.container {
+  display: flex;
+  gap: 10px; /* space between each letter box */
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0f; /* dark background */
+  height: 100vh;
+}
+.not {
+  background: #0e0909; /* black box */
+  color: #fcf5f7; /* bright text */
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 2px 12px;
+  
+  /* **Black border around letters** */
+  -webkit-text-stroke: 1px black; /* border width & color */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.lag{
+    margin: 0 20px;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    color:white;
+}
+.brand {
+    display:flex;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1rem;
+   
+}
+.containar{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(hq720.jpg);
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    background-color: #0e0101;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #fcf5f7 2px solid;
+}
+.icons{
+    cursor: pointer;
+    font-size: 16px; 
+    justify-content: center;
+    border: white 2px solid;
+    margin-top:1vh;
+        
+}
+#myRange{
+    width: 80vw;
+    height: 1px;
+    
+}
+.naatItem{
+    display: flex;
+    height: 40px;
+    background-color: white;
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border: black   4px solid;
+    border-radius: 30px;
+}
+.naatItem img{  
+    height: 40px;
+    width: 40px;
+    border-radius: 150px;
+    margin-left: 5px;   
+    margin-top: 2px; 
+    margin-bottom: 2px;
+}
+.naatplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.naatinfo{
+    position: absolute;
+    left: 30.5vw;
+    border: white 2px solid;
+    margin-top:7vh;
+}
+.naatinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+  
